@@ -1,3 +1,21 @@
+- [Tổng quan về React.js](#tổng-quan-về-reactjs)
+  - [Thuật ngữ sẽ sử dụng](#thuật-ngữ-sẽ-sử-dụng)
+  - [Rendering with JSX](#rendering-with-jsx)
+  - [Components, Props, and State](#components-props-and-state)
+    - [1. Components](#1-components)
+    - [Phần tách components](#phần-tách-components)
+    - [2. Props](#2-props)
+    - [3.State](#3state)
+      - [Làm cách nào để thêm State trong React](#làm-cách-nào-để-thêm-state-trong-react)
+    - [Props vs State](#props-vs-state)
+  - [Những khái niệm khác trong React](#những-khái-niệm-khác-trong-react)
+    - [1. Lifecycle](#1-lifecycle)
+    - [2. Higher-order component (HOC)](#2-higher-order-component-hoc)
+    - [3. Context](#3-context)
+  - [React Hooks](#react-hooks)
+  - [Tư duy trong React](#tư-duy-trong-react)
+  - [Kết luận](#kết-luận)
+
 # Tổng quan về React.js
 
 Một thư viện UI dùng để xây dựng các phần giao diện người dùng (UI component) có thể tái sử dụng.
@@ -172,13 +190,13 @@ function Tweet(props) {
 
 Phân tách các component có vẻ là một công việc tẻ nhạt, nhưng việc có các component có thể tái sử dụng sẽ giúp mọi thứ dễ dàng hơn khi code các ứng dụng lớn hơn. Một tiêu chí cần được xem xét khi đơn giản hoá các component là: nếu một phần UI của bạn được sử dụng nhiều lần (_Button, Panel, Avatar_) hoặc đủ phức tạp (_App, FeedStory, Comment_) thì nó tốt nhất nên được tách thành một component riêng biệt.
 
-## 2. Props
+### 2. Props
 
 Props là viết tắt của properties và chúng chỉ đơn giản đề cập tới dữ liệu nội bộ của một component trong React. Chúng được viết bên trong component call và được chuyển vào trong component. Chúng cũng sử dụng cú pháp giống như các HTML attribute, ví dụ: _prop="value"_. Hai điều bạn nên biết về props: Đầu tiên, chúng ta xác định giá trị của một prop và sử dụng nó như một phần của kế hoạch chi tiết trước khi xây dựng component. Thứ hai, dữ liệu của prop sẽ không bao giờ thay đổi, tức là prop chỉ được đọc (read-only) khi chúng được truyền vào component.
 
 Cách truy cập vào một prop là tham chiếu nó thông qua thuộc tính "this.props" mà mọi component đều có quyền truy cập.
 
-## 3.State
+### 3.State
 
 State là một object giữ một vài thông tin có thể thay đổi trong suốt thời gian tồn tại của component. Có nghĩa nó chỉ là snapshot của dữ liệu được lưu trữ trong Props của component. Dữ liệu có thể thay đổi theo thời gian, vì vậy các kỹ thuật để quản lý cách dữ liệu thay đổi trở nên cần thiết để đảm bảo component hoạt động như cách các lập trình viên muốn, đúng thời điểm - đây được gọi là _quản lý trạng thái (State management)_.
 
