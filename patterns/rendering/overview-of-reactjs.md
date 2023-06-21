@@ -1,24 +1,25 @@
-- [Tổng quan về React.js](#tổng-quan-về-reactjs)
-  - [Thuật ngữ sẽ sử dụng](#thuật-ngữ-sẽ-sử-dụng)
-  - [Rendering with JSX](#rendering-with-jsx)
-  - [Components, Props, and State](#components-props-and-state)
-    - [1. Components](#1-components)
-    - [Phần tách components](#phần-tách-components)
-    - [2. Props](#2-props)
-    - [3.State](#3state)
-      - [Làm cách nào để thêm State trong React](#làm-cách-nào-để-thêm-state-trong-react)
-    - [Props vs State](#props-vs-state)
-  - [Những khái niệm khác trong React](#những-khái-niệm-khác-trong-react)
-    - [1. Lifecycle](#1-lifecycle)
-    - [2. Higher-order component (HOC)](#2-higher-order-component-hoc)
-    - [3. Context](#3-context)
-  - [React Hooks](#react-hooks)
-  - [Tư duy trong React](#tư-duy-trong-react)
-  - [Kết luận](#kết-luận)
-
 # Tổng quan về React.js
 
 Một thư viện UI dùng để xây dựng các phần giao diện người dùng (UI component) có thể tái sử dụng.
+
+- [Thuật ngữ sẽ sử dụng](#thuật-ngữ-sẽ-sử-dụng)
+- [Rendering with JSX](#rendering-with-jsx)
+- [Components, Props, and State](#components-props-and-state)
+  - [1. Components](#1-components)
+  - [Phần tách components](#phần-tách-components)
+  - [2. Props](#2-props)
+  - [3.State](#3state)
+    - [Làm cách nào để thêm State trong React](#làm-cách-nào-để-thêm-state-trong-react)
+  - [Props vs State](#props-vs-state)
+- [Những khái niệm khác trong React](#những-khái-niệm-khác-trong-react)
+  - [1. Lifecycle](#1-lifecycle)
+  - [2. Higher-order component (HOC)](#2-higher-order-component-hoc)
+  - [3. Context](#3-context)
+- [React Hooks](#react-hooks)
+- [Tư duy trong React](#tư-duy-trong-react)
+- [Kết luận](#kết-luận)
+
+---
 
 ![](../../images/rendering/overview-of-reactjs/1.png)
 

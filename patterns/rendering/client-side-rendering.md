@@ -1,12 +1,13 @@
-- [Client-side Rendering](#client-side-rendering)
-  - [Cấu trúc cơ bản](#cấu-trúc-cơ-bản)
-  - [JavaScript bundles và hiệu suất](#javascript-bundles-và-hiệu-suất)
-  - [Ưu điểm và nhược điểm](#ưu-điểm-và-nhược-điểm)
-  - [Cải thiện hiệu suất CSR](#cải-thiện-hiệu-suất-csr)
-
 # Client-side Rendering
 
 Render UI ứng dụng của bạn trên client.
+
+- [Cấu trúc cơ bản](#cấu-trúc-cơ-bản)
+- [JavaScript bundles và hiệu suất](#javascript-bundles-và-hiệu-suất)
+- [Ưu điểm và nhược điểm](#ưu-điểm-và-nhược-điểm)
+- [Cải thiện hiệu suất CSR](#cải-thiện-hiệu-suất-csr)
+
+---
 
 Trong Client-Side Rendering (CSR) chỉ có khung HTML cơ bản cho một trang được render bởi server. Logic, fetch dữ liệu (data fetching), tạo template (templating) và điều hướng (routing) cần thiết để hiển thị nội dung trên trang được xử lý bằng JavaScript thực thi ngay trên browser/client. CSR trở nên phổ biến như một phương thức để xây dựng single-page application (SPA). Nó làm mờ sự khác biệt giữa website mà một ứng dụng được cài đặt.
 

@@ -1,17 +1,18 @@
-- [Giới thiệu](#giới-thiệu)
-  - [Tầm quan trọng của các rendering pattern](#tầm-quan-trọng-của-các-rendering-pattern)
-  - [Chọn một pattern](#chọn-một-pattern)
-    - [Static Rendering](#static-rendering)
-    - [Basic/Plain Static Rendering](#basicplain-static-rendering)
-    - [Static Rendering with Client-Side `fetch`](#static-rendering-with-client-side-fetch)
-    - [Static with `getStaticProps`](#static-with-getstaticprops)
-    - [Incremental Static Regeneration](#incremental-static-regeneration)
-    - [On-demand Incremental Static Regeneration](#on-demand-incremental-static-regeneration)
-    - [Server-Side Rendering](#server-side-rendering)
-    - [Edge SSR + HTTP Streaming](#edge-ssr--http-streaming)
-  - [Kết luận](#kết-luận)
-
 # Giới thiệu
+
+- [Tầm quan trọng của các rendering pattern](#tầm-quan-trọng-của-các-rendering-pattern)
+- [Chọn một pattern](#chọn-một-pattern)
+  - [Static Rendering](#static-rendering)
+  - [Basic/Plain Static Rendering](#basicplain-static-rendering)
+  - [Static Rendering with Client-Side `fetch`](#static-rendering-with-client-side-fetch)
+  - [Static with `getStaticProps`](#static-with-getstaticprops)
+  - [Incremental Static Regeneration](#incremental-static-regeneration)
+  - [On-demand Incremental Static Regeneration](#on-demand-incremental-static-regeneration)
+  - [Server-Side Rendering](#server-side-rendering)
+  - [Edge SSR + HTTP Streaming](#edge-ssr--http-streaming)
+- [Kết luận](#kết-luận)
+
+---
 
 Khi bạn bắt đầu thiết kế và xây dựng một ứng dụng web mới, một trong những quyết định cơ bản mà bạn đưa ra là: _"Tôi muốn hiển thị nội dung như thế nào và ở đâu?"_. Nó nên được render ở web server, build server, Edge hay trực tiếp ở client. Nó nên được render tất cả cùng một lần (all at once), từng phần (partial) hay tải dần dần (progressive).
 
