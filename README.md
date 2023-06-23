@@ -9,6 +9,7 @@ Học design pattern, rendering pattern, performance pattern từ trang patterns
 - [Client-side Rendering](./patterns/rendering/client-side-rendering.md)
 - [Server-side Rendering](./patterns/rendering/server-side-rendering.md)
 - [Static Rendering](./patterns/rendering/static-rendering.md)
+- [Incremental Static Generation](./patterns/rendering/incremental-static-generation.md)
 
 2. Rendering patterns
 3. Performance patterns
