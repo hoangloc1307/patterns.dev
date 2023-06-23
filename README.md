@@ -8,6 +8,7 @@ Học design pattern, rendering pattern, performance pattern từ trang patterns
 - [Tổng quan về React.js](./patterns/rendering/overview-of-reactjs.md)
 - [Client-side Rendering](./patterns/rendering/client-side-rendering.md)
 - [Server-side Rendering](./patterns/rendering/server-side-rendering.md)
+- [Static Rendering](./patterns/rendering/static-rendering.md)
 
 2. Rendering patterns
 3. Performance patterns
