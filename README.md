@@ -11,6 +11,7 @@ Học design pattern, rendering pattern, performance pattern từ trang patterns
 - [Static Rendering](./patterns/rendering/static-rendering.md)
 - [Incremental Static Generation](./patterns/rendering/incremental-static-generation.md)
 - [Progressive Hydration](./patterns/rendering/progressive-hydration.md)
+- [Streaming Server-Side Rendering](./patterns/rendering/streaming-server-side-rendering.md)
 
 2. Rendering patterns
 3. Performance patterns
