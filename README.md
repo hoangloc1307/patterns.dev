@@ -3,6 +3,7 @@ Học design pattern, rendering pattern, performance pattern từ trang patterns
 **Các phần đã dịch:**
 
 1. Design patterns
+2. Rendering patterns
 
 - [Giới thiệu](./patterns/rendering/introduce.md)
 - [Tổng quan về React.js](./patterns/rendering/overview-of-reactjs.md)
@@ -12,7 +13,7 @@ Học design pattern, rendering pattern, performance pattern từ trang patterns
 - [Incremental Static Generation](./patterns/rendering/incremental-static-generation.md)
 - [Progressive Hydration](./patterns/rendering/progressive-hydration.md)
 - [Streaming Server-Side Rendering](./patterns/rendering/streaming-server-side-rendering.md)
+- [React Server Components](./patterns/rendering/react-server-components.md)
 
-2. Rendering patterns
 3. Performance patterns
 4. Framework patterns
